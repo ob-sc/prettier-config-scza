@@ -2,6 +2,13 @@
   "name": "prettier-config-scza",
   "version": "1.0.0",
   "description": "prettier config für SC Zeiterfassung",
-  "scripts": {},
+  "main": ".prettierrc.js",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ob-sc/prettier-config-scza.git"
+  },
   "license": "UNLICENSED"
 }
